@@ -1,0 +1,1 @@
+CKEditor/CKFinder integration for Codeigniter 2 by Ablitica 2013

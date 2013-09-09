@@ -1,0 +1,9 @@
+*/config/development
+*/config/master_config_custom.php
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+.project
+.settings/com.aptana.editor.php.prefs
+*.DS_Store
