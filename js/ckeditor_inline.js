@@ -1,4 +1,23 @@
 $(function() {
+
+    $('#refresh').click(function(){
+        location.reload();
+    });
+
+    $('#reset').click(function(){
+
+        jQuery.ajax({
+            url: "/welcome/reset",
+            type: "POST",
+            data: {
+                reset : true
+            },
+            dataType: "html"
+        }).done(function() {
+            location.reload();
+        });
+     });
+
     // inline CKEDITOR editing
      CKEDITOR.disableAutoInline = true;
 

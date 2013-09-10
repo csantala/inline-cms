@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Welcome to CodeIgniter</title>
+<title>Codeigniter CKEditor Inline Text Editor Demo</title>
 
 <link rel="stylesheet" type="text/css" href="/css/ci.css" />
 
@@ -18,6 +18,8 @@
 		<div id="editable1" contenteditable="true" class=""><?php echo $editable1; ?></div>
 		<div id="editable2" contenteditable="true" class=""><?php echo $editable2; ?></div>
 		<div id="editable3" class="" contenteditable="true"><?php echo $editable3; ?></div>
+		<div style="clear:both"></div>
+		<p><button id="refresh">Refresh</button>&nbsp;&bull;&nbsp;<button id="reset">Reset</button></p>
 	</div>
 </div>
 </body>
