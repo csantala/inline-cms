@@ -41,7 +41,7 @@ class Welcome extends CI_Controller {
 		}
 
 		// set page content elements to default string
-		$elements = array('title', 'body', 'editable1', 'footer');
+		$elements = array('title', 'editable1', 'editable2', 'editable3');
 		$default = 'click to edit.';
 		foreach ($elements as $element) {
 			$view_data[$element] = $default;
