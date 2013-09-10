@@ -7,6 +7,7 @@ $(function() {
         var content_id = $(this).attr('id');
 
         CKEDITOR.inline( content_id, {
+            extraPlugins: 'sourcedialog',
             on: {
                 blur: function( event ) {
 
