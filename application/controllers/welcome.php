@@ -7,7 +7,7 @@ class Welcome extends CI_Controller {
 		'editable1' => '<h3>Click to edit any paragraph, click outside of the edit to save to db.</h3>',
 		'editable2' => '<p>Te tota aeque nobis vix, exerci libris equidem id ius, debitis alienum nam et. No illum mentitum pri, pro legimus tractatos consulatu et. Et eos oratio putant reformidans, vix fierent conceptam ex, ea eam nobis elaboraret. Duo tantas assentior ne, altera virtute repudiare nam ei. Vel nibh tincidunt id, cibo adipisci ne vel. Quaeque constituam theophrastus ei nam, cum ex exerci pertinax.</p>
 ',
-		'editable3' => '<p><img alt="" src="http://vibrationofawesome.com/wp-content/uploads/2013/02/i_awesome6.jpg " style="float:left; height:74px; width:100px; margin-right:10px;" />
+		'editable3' => '<p><img alt="" src="/images/awesome.jpg " style="float:left; height:74px; width:100px; margin-right:10px;" />
 Labore mnesarchum conclusionemque ex vix. Vidit doming eos at, euismod mnesarchum reprimique cum ad. Nibh delicata intellegebat no quo. Pri et dico vidit honestatis, mea cu reque ubique. Vis viris quando democritum an, vim eu summo zril apeirian. Pro dicant euismod patrioque ex, laudem graece eu has, qui in velit comprehensam.</p>
 '
 	);
