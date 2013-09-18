@@ -1,8 +1,15 @@
+<?php
+/**
+ * CodeIgniter view file with jQuery and CKEditor integration featuring three inline-editable elements.
+ *
+ * Replace welcome_message.php with this version in the application/views/ directory.
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Welcome to CodeIgniter</title>
+<title>Welcome to the CodeIgniter CKEditor inline-editor demo!</title>
 
 <link rel="stylesheet" type="text/css" href="/css/ci.css" />
 
@@ -13,7 +20,6 @@
 <body>
 <div id="container">
 	<div id="title" contenteditable="true" class=""><?php echo $title; ?></div>
-
 	<div id="body">
 		<div id="editable1" contenteditable="true" class=""><?php echo $editable1; ?></div>
 		<div id="editable2" contenteditable="true" class=""><?php echo $editable2; ?></div>
