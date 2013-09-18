@@ -2,7 +2,7 @@
 
 /**
  * CodeIgniter welcome controller with many additions.
- * enhanced by Chris Santala 2013.
+ * enhanced by Chris Santala 2013
  *
  * Primarily receives POST variables from js/ckeditor_inline.js and saves the values to the database.
  */
