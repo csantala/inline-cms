@@ -1,11 +1,19 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+/**
+ * CodeIgniter welcome controller with many additions.
+ * enhanced by Chris Santala 2013.
+ *
+ * Primarily receives POST variables from js/ckeditor_inline.js and saves the values to the database.
+ */
+
+class Welcome extends CI_Controller
+{
 
 	public $reset_data = array(
-		'title' => '<h1>Welcome to the Codeigniter-CKEditor Inline Text Editor Demo!</h1>',
+		'title' => '<h1>Welcome to the CodeIgniter-CKEditor Inline Text Editor Demo!</h1>',
 		'editable1' => '<h3>Click any block of text to edit it, click outside of the edit field to save to db.</h3>',
-		'editable2' => '<p>Te tota aeque nobis vix, exerci libris equidem id ius, debitis alienum nam et. No illum mentitum pri, pro legimus tractatos consulatu et. Et eos oratio putant reformidans, vix fierent conceptam ex, ea eam nobis elaboraret. Duo tantas assentior ne, altera virtute repudiare nam ei. Vel nibh tincidunt id, cibo adipisci ne vel. Quaeque constituam theophrastus ei nam, cum ex exerci pertinax.</p>
+		'editable2' => '<p>What is this?  What\'s it good for?  This is a method to integrate the excellent CKEditor js application into CodeIgniter to allow for inline-editing of any content. Click this paragraph to see it in action! See the documentation and code at <a href="https://github.com/csantala/inline-cms">GitHub</a> to add this terrific functionality into any website.</p>
 ',
 		'editable3' => '<p><img alt="" src="/images/awesome.jpg " style="float:left; height:74px; width:100px; margin-right:10px;" />
 Labore mnesarchum conclusionemque ex vix. Vidit doming eos at, euismod mnesarchum reprimique cum ad. Nibh delicata intellegebat no quo. Pri et dico vidit honestatis, mea cu reque ubique. Vis viris quando democritum an, vim eu summo zril apeirian. Pro dicant euismod patrioque ex, laudem graece eu has, qui in velit comprehensam.</p>
@@ -20,11 +28,14 @@ Labore mnesarchum conclusionemque ex vix. Vidit doming eos at, euismod mnesarchu
 		$this->load->database();
 	}
 
+	// the default invocation of the welcome view sets the editable elements' content to a default setting
+	// and then checks the db for any of their values & populates where found.
 	public function index()
 	{
 		$this->update();
 	}
 
+	// resets db values with hardcoded public data above
 	public function reset()
 	{
 		if (isset($_POST['reset']))
@@ -43,8 +54,13 @@ Labore mnesarchum conclusionemque ex vix. Vidit doming eos at, euismod mnesarchu
 		}
 	}
 
-	public function update() {
-
+	/**
+	 * updates database with text from editable elements in the welcome view
+	 * checks for POST from /js/ckeditor_inline.js
+	 * sets initial value of editable inline elements to 'click to edit' and populates with matching db values
+	 */
+	public function update()
+	{
 		if (! empty($_POST))
 	 	{
 			$query = $this->db->get_where('content', array('content_id' => $_POST['content_id']));
