@@ -1,4 +1,4 @@
-CKEditor/CKFinder integration for Codeigniter 2.14 by Ablitica 2013  
+CKEditor db driven inline-editing integration for Codeigniter 2.14 by Ablitica 2013  
   
 setup  
 1. download the latest version of CodeIgniter http://ellislab.com/codeigniter  
