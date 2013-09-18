@@ -1,7 +1,7 @@
 CKEditor db driven inline-editing integration demo for Codeigniter 2.14 by Ablitica 2013
 
 setup  
-1. clone this repository into your local network git@github.com:csantala/inline-cms.git  
+1. clone this repository into your local network  
 2. set up your local db params in application/config/database.php  
 3. import sql.sql to create the 'content' table  
 4. that's it  
