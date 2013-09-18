@@ -6,8 +6,11 @@ setup
 3. add the ckeditor, css, and js directories to the root.  
 4. set up your db; import sql.sql to generate 'content' table.  
 
-notes  
+notes
 + new versions of the CKEditor may integrate into this demo without modifications to anything http://ckeditor.com/
 + see the full CodeIgniter setup here: https://github.com/csantala/inline-cms/tree/codeigniter-integration
 + online demo: http://inline-cms.com/
-+ contact csantala@gmail.com for assistance
++ contact csantala@gmail.com for assistance  
+  
+one last thing  
++ see the CodeIgniter branch for complete integration: https://github.com/csantala/inline-cms/tree/codeigniter-integration
