@@ -7,7 +7,7 @@ setup
 4. set up your db; import sql.sql to generate 'content' table.
 
 notes
-+ new versions of the CKEditor may integrate into this demo without modifications to anything
++ new versions of the CKEditor may integrate into this demo without modifications to anything http://ckeditor.com/
 + see the full CodeIgniter setup here: https://github.com/csantala/inline-cms/tree/codeigniter-integration
 + online demo: http://inline-cms.com/
 + contact csantala@gmail.com for assistance
