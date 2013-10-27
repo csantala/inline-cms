@@ -1,0 +1,6 @@
+[submodule "libraries/bigpipe"]
+	path = libraries/bigpipe
+	url = git://github.com/garo/bigpipe
+[submodule "application/libraries/bigpipe"]
+	path = application/libraries/bigpipe
+	url = git://github.com/garo/bigpipe

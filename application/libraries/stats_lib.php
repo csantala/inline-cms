@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-	include_once('/libaries/bigpipe/browser.php');
+	include_once('bigpipe/Browser.php');
 
 	// alternatively, set this in php.ini
 	date_default_timezone_set('America/New_York');
