@@ -9,7 +9,6 @@
 
 class Welcome extends CI_Controller
 {
-
 	public $reset_data = array(
 		'title' => '<h1>Welcome to the CodeIgniter-CKEditor Inline Text Editor Demo!</h1>',
 		'editable1' => '<h3>Click any block of text to edit it, click outside of the edit field to save to db.</h3>',
@@ -26,12 +25,18 @@ Labore mnesarchum conclusionemque ex vix. Vidit doming eos at, euismod mnesarchu
 	{
 		parent::__construct();
 		$this->load->database();
+
+		$this->load->library('stats_lib');
+
 	}
 
 	// the default invocation of the welcome view sets the editable elements' content to a default setting
 	// and then checks the db for any of their values & populates where found.
 	public function index()
 	{
+
+		$this->stats_lib->track('home');
+
 		$this->update();
 	}
 
