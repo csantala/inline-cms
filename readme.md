@@ -1,12 +1,12 @@
-CKEditor db driven inline-editing integration for Codeigniter 2.14 by Ablitica 2013  
+####CKEditor db driven inline-editing integration for Codeigniter 2.14 by Ablitica 2013#### 
   
-setup  
+#####setup#####
 1. download the latest version of CodeIgniter http://ellislab.com/codeigniter  
 2. replace the welcome controller and view with the versions from this repository.  
 3. add the ckeditor, css, and js directories to the root.  
 4. set up your db; import sql.sql to generate 'content' table.  
 
-notes
+#####notes#####
 + new versions of the CKEditor may integrate into this demo without modifications to anything http://ckeditor.com/
 + see the integrated CodeIgniter branch here: https://github.com/csantala/inline-cms/tree/codeigniter-integration
 + online demo: http://inline-cms.com/
