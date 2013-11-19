@@ -23,7 +23,7 @@
 			<div id="buttons"><button id="refresh">Refresh</button>&nbsp;&nbsp;&nbsp;<button id="reset">Reset</button></div>
 		</div>
 		<div class="float_right">
-			<a href="https://github.com/csantala/inline-cms" title="clean & CI integrated branches"><img src="/images/github-logo-transparent.png" border="0"></a>
+			<a href="https://github.com/csantala/inline-cms" title="Clean & CI integrated branches at GitHub"><img src="/images/github-logo-transparent.png" border="0"></a>
 		</div>
 		<div class="separator"></div>
 	</div>

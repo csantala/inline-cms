@@ -10,11 +10,11 @@
 class Welcome extends CI_Controller
 {
 	public $reset_data = array(
-		'title' => '<h1>Welcome to the CodeIgniter-CKEditor Inline Text Editor Demo!</h1>',
-		'editable1' => '<h3>Click any block of text to edit it, click outside of the edit field to save to db.</h3>',
-		'editable2' => '<p>What is this?  What\'s it good for?  This is a method to integrate the excellent CKEditor js application into CodeIgniter to allow for inline-editing of any content. Click this paragraph to see it in action! See the documentation and code at <a href="https://github.com/csantala/inline-cms">GitHub</a> to add this terrific functionality into any website.</p>
+		'title' => '<h1>Welcome to the CodeIgniter-CKEditor Inline Text Editor Demo.</h1>',
+		'editable1' => '<h3>Click any block of text to edit it, click outside of the editor to save to db.</h3>',
+		'editable2' => '<p>What is this? This is a method to integrate the CKEditor js application into CodeIgniter to allow for inline-editing of any content. Click this paragraph to see it in action.</p>
 ',
-		'editable3' => '<p><img alt="" src="/images/awesome.jpg " style="float:left; height:74px; width:100px; margin-right:10px;" />
+		'editable3' => '<p><img src="/images/awesome.jpg" style="float:left; height:74px; width:100px; margin-right:10px;" />
 Labore mnesarchum conclusionemque ex vix. Vidit doming eos at, euismod mnesarchum reprimique cum ad. Nibh delicata intellegebat no quo. Pri et dico vidit honestatis, mea cu reque ubique. Vis viris quando democritum an, vim eu summo zril apeirian. Pro dicant euismod patrioque ex, laudem graece eu has, qui in velit comprehensam.</p>
 '
 	);
