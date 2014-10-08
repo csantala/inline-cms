@@ -9,5 +9,4 @@
 #####notes#####
 + new versions of the CKEditor may integrate into this demo without modifications to anything http://ckeditor.com/
 + see the integrated CodeIgniter branch here: https://github.com/csantala/inline-cms/tree/codeigniter-integration
-+ online demo: http://inline-cms.com/
 + contact csantala@gmail.com for assistance
